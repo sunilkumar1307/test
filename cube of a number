@@ -1,0 +1,10 @@
+//To calculate the cube value of the number
+#include <stdio.h>
+void main()
+{
+    int num,value;
+    printf("Enter the Number :");
+    scanf("%d",&num);
+    value=num*num*num;
+    printf("The cube value for the given number is %d", value);
+}
